@@ -4,8 +4,6 @@
 
 import random
 
-from data import *
-
 novel = ""
 
 def main():

@@ -5,7 +5,6 @@
 import pickle
 
 import analysis
-from data import *
 
 #メイン関数
 def main():
@@ -62,6 +61,7 @@ def end():
 		pickle.dump(Learn.tokenList, f)
 	with open("parts.pickle", "wb") as f:
 		pickle.dump(Learn.parts, f)
+	reset()
 		
 def reset():
 	with open("connections.pickle", "wb") as f:
